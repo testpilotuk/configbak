@@ -47,6 +47,7 @@ set -o noclobber
 #alias jobs='jobs -l'
 #alias edit=$EDITOR
 alias vb="$EDITOR ~/.bashrc"
+alias va="$EDITOR ~/.config/alacritty/alacritty.yml"
 alias l.='exa -d .*'
 alias la='exa -lahF'
 alias ll='exa -l'

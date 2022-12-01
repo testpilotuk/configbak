@@ -1,0 +1,32 @@
+Launchers
+=========
+Alacritty		Super + return
+File Manager		Super + shift + return
+Run prompt		Super + P
+Web Browser		Super + W
+Text Editor		Super + E
+
+Windows
+=======
+Close			Super + shift + C
+View split on left	Super + left
+View split on right	Super + right
+
+System
+======
+Shutdown		Super + shift + Q
+
+
+-------------------------------------------
+
+Programs
+========
+Run prompt:		D-menu or Rofi (rofi -show run)
+Terminal:		Alacritty
+Terminal prompt:	Starship rc
+Terminal text editor:	vim
+Graphical text editor:	sublime
+Man pages:		cheat and/or tldr
+System info:		neofetch and/or conky
+Process management:	btop
+ls 			exa

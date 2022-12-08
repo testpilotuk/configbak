@@ -2,7 +2,7 @@
 # If not running interactively, don't do anything 
 [[ $- != *i* ]] && return
 
-# Source global definitions
+# Source global definitions from /etc/bashrc
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
@@ -14,23 +14,23 @@ then
 fi
 export PATH
 
-# Which pager to use.
+# Make Less the default pager
 export PAGER=less
 
 # Get color support for 'less'
 export LESS="--RAW-CONTROL-CHARS"
 
-# Use colors for less, man, etc.
+# Use colors assigned in LESS_TERMCAP to make man pages easier to read 
 [[ -f ~/.LESS_TERMCAP ]] && . ~/.LESS_TERMCAP
 
-# Which editor to use.
+# Assign VIM as text editor
 EDITOR=/usr/bin/vim
-#EDITOR=/usr/bin/emacs
-#EDITOR=/usr/bin/nano
 export EDITOR
 
-## The maximum number of lines in your history file
-export HISTFILESIZE=500
+# Increase the maximum number of lines in your history file
+# to 1000 and ignore duplicate commands
+export HISTFILESIZE=1000
+export HISTCONTROL=ignoredups
 
 ## Append to history file; do not overwrite
 shopt -s histappend
@@ -38,7 +38,7 @@ shopt -s histappend
 ## Prevent accidental overwrites when using IO redirection
 set -o noclobber
 
-# User specific aliases and functions
+# User specific aliases 
 alias vb="$EDITOR ~/.bashrc"
 alias va="$EDITOR ~/.config/alacritty/alacritty.yml"
 alias l.='exa -d .*'
@@ -61,5 +61,5 @@ fi
 
 unset rc
 
-#Neofetch
+# Start Neofetch
 neofetch

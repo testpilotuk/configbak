@@ -11,6 +11,7 @@ ArcoLinux-B  Budgie     https://www.arcolinux.info/downloads/                   
 ArcoLinux-B  MATE       https://www.arcolinux.info/downloads/                       [Y] | [*]       [N]    [N]  Old fashioned Gnome looks like Budgie
 ArcoLinux-B  Fvwm3      https://www.arcolinux.info/downloads/                       [Y] | [*]       [Y]    [N]  Mouse & Menu driven
 Manjaro	Plasma          https://manjaro.org/download/                               [Y] | [*]       [Y]    [N]  Looks pretty
+AVLinux MX Edition	http://www.bandshed.net/avlinux/                            [Y] | [*]       [Y]    [M]  Musicians Distro - need to try on bare metal
 
 
 Key:
@@ -23,3 +24,6 @@ M = Maybe
 
 NOTE: Daily driver? is an answer to "Would I use this as my daily driver". 
 TO Do: Purchase front loading SSD tray and additional SSDs to try liked distros on bare Metal.
+
+Desktops to try: 
+Deepin (Arco), Pantheon (Arco) and Unity (Ubuntu)

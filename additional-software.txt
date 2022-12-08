@@ -1,0 +1,48 @@
+# Additional Software to install after a fresh OS (Probably Fedora) install.
+
+None-free codecs               Including libdvdcss for playing DVDs
+Alacritty                      Terminal
+Starship rs                    Terminal prompt
+VIM		               Text editor
+btop                           System monitoring tool
+Timeshift                      System restore
+Bleachbit                      Clean system & free disk space
+Dropbox                        Cloud storage 
+Neofetch	               System info
+Hardware Probe                 Check Linux compatibility of computer hardware and find upgrades
+Virtual Machine Manager        More features than Boxes
+Gnome Tweaks                   Tweak your DE
+Gnome Extensions               Extend your Gnome environment
+Extension Manager              Manage those Gnome extensions
+Steam                          Games Client
+Snes9x                         Super NES emulation
+Xonotic                        FPS Game
+MAME                           Retro arcade machine emulation
+Discord                        Community chat client
+Geary                          Email Client
+Brave                          Web Browser
+TODOIST                        Task Management
+Skype                          Contact relatives who don't embrace FOSS
+Lollypop                       Music player/organiser
+Spotify (Maybe)                Stream music
+Nuclear (Maybe)                Stream music
+Sound juicer                   CD Ripper
+Tagger or Kid3                 Tag music files
+Brasero                        Burn DVD/CDs
+Audacity                       Sound recorder and editor
+Ardour                         DAW
+QjackCtl (or QPWgraph)         Audio IO connections management
+GuitarIX                       Guitar amplifier & effects emulator
+Davinci Resolve                Video editor or Kdenlive when it stops crashing
+OBS Studio                     Streaming/Video Recording
+Handbrake                      Video Transcoder
+Video Downloader               Download videos from websites like YouTube
+GIMP                           Bitmap graphics editor
+Inkscape                       Vector graphics editor
+Gramps                         Manage genealogical information
+Homebank                       Personal accounting software
+Scribus                        DTP software
+Wallpaper Selector             Select desktop wallpaper
+
+
+
